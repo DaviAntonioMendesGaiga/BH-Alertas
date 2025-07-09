@@ -1,58 +1,58 @@
 ## BH-Alertas
 
+Projeto fruto de um trabalho em grupo proposto pela faculdade, onde era necessário o desenvolvimento de um sistema web fullstack.
+
+## Objetivo do Trabalho
+
 Projeto que se consiste em um sistema web que tem como finalidade o alerta e a conscientização da população belo horizontina de problemas ambientais na região, além de permitir
 que os usuários denunciem tais problemas as autoridades cabíveis, tudo isso nessa simulação.
 
 ## Tecnologias Utilizadas
 
--HTML5
--CSS3
+-HTML5 
+-CSS3 
 -JavaScript
 -Node.js
 -Express
 -MongoDB
 
-## Objetivo do Trabalho
-
-O Principal objetivo desse trabalho era criar um sistema web comumente utilizado no mercado, como uma loja virtual, um site de hospedagem, ou outro por exemplo. Como ainda não tenho um bom conhecimento em linguagens
-back-end, optei por fazer essa parte com uma simulação no front-end, atribuindo as funcionalidades necessárias de um sistema de gerenciamento. 
+## Integrantes do projeto:
+- Asafe Orneles ( Backend - Integração com banco de dados,funções internas e mecanismos para guardar as informações )
+- Matheus Serqueira ( Frontend - Página de login e página inicial ) 
+- Lucas Tavares ( Backend - Auxílio no Backend )
+- Davi ( Frontend - Páginas de conscientização e denúncias, navegação entre páginas )  
 
 ## Principais desafios:
 
--Grande quantidade de novos conteúdos
--Atualizar e atribuir as mudanças no site conforme a chegada de novas informações.
--Simular o back-end com front-end
--Sistema responsivo em Dekstop x Mobile
+- Responsividade 
+- Planejamento inicial de como deveria funcionar o sistema
+- Desenvolvimento em conjunto
 
-## Novidades
+## Responsividade:
 
-Durante o desenvolvimento, me deparei com bastante conteúdo novo e que não havia ainda visto nem nos cursos que faço de programação, dentre eles: Hooks (UseEffect, CreateContext, UseContext, personalizados), 
-LocalStorage, Libraries do react e entre outros. Como o prazo para a entrega era curto, priorizei finalizar toda lógica que envolvia tais conteúdos, depois peguei para reler e compreender o funcionamento
-de cada coisa, e hoje compreendo estes conceitos e a lógica do sistema.
+Durante a criação das páginas, priorizei o desenvolvimento de interfaces simples, porém funcionais aos usuários, visando também tornar o sistema utilizável em diferentes dispositivos.
+Utilizando Media Queries em CSS, consegui tornar responsivas a maioria das páginas,  com exceção da página de educação, que não pude replicar
+na mesma qualidade, provavelmente por equívoco na estruturação HTML inicial, ou imagens muito grandes.
 
- ## Site dinâmico
+## Planejamento do Site:
 
-Sem dúvidas deixar o site dinâmico me custou trabalho, pois minha intenção era deixar os produtos e informações todos já predefinidos, principalmente por não ter noção de como faria essa dinâmica.
-Porém, resolvi fazer essa mudança, e com bastante  ajuda da IA, consegui deixar o site reativo aos movimentos que são feitos no mesmo.
+O Objetivo do trabalho nos fez pensar no desenvolvimento do sistema como se fóssemos entregar um produto, portanto, nos atentamos a organização
+de pastas, como poderíamos resumir nosso código e também como facilitar a programação em grupo. O integrante Asafe se responsabilizou por
+esquematizar a divisão de pastas e como seria o modelo inicial, enquanto eu, durante chamadas que fazíamos para trabalhar em conjunto, contribui
+dando idéias de como poderia ser trabalhada a arquitetura do front-end e as respectivas páginas para facilitar nosso trabalho.
 
-## Simulação do back-end no front-end
+## Desenvolvimento em conjunto:
 
-Como mencionado no tópico anterior, a principal dificuldade foi fazer isso sem um grande conhecimento prévio. Fiz a lógica, em seguida testes de funcionalidade, 
-e depois de finalizado, reli todo o código e compreendi o que estava sendo feito.
-
-## Responsividade Desktop e Mobile
-
-Um problema que eu enfrentei foi a dificuldade em tornar o sistema responsivo em mobile, uma vez que optei por uma sidebar ( navbar vertical e posicionada ao canto da tela ). Tive a ideia
-de fazer com que em telas menores, a barra de navegação mudasse para o centro da tela, o que facilitou e muito o desenvolvimento e tornou o site utilizável em dispositivos menores.
+Trabalhar em conjunto todos com o mesmo código no começo foi algo bem difícil, mas essa dificuldade foi rapidamente superada, pois aprendemos
+a utilizar melhor o GitHub com as funções de Fork e realizamos chamadas diariamente para contribuir com a produtividade, portanto no final
+conseguimos superar e finalizar o trabalho.
 
 ## Considerações Finais:
 
-Fazer esse projeto para mim foi excelente, pois por mais que tenha sofrido para finalizá-lo, me ensinou muito e sem dúvidas me melhorou como desenvolvedor. 
-Apesar de tudo, algumas coisas eu não consegui resolver no meu site, como o card de faturamento do mês no dashboard , que dependendo do movimento , reduz o faturamento mensal 
-( provavelmente pois não simulei compras no meu site ) e o registro de vendas , que acaba removendo produtos do estoque, sendo que era apenas para fazer um registro. Sobre o design, Apesar dos erros, posso
-melhorar esse site futuramente, corrigindo os bugs e adicionando sistemas de login, quando estiver mais desenvolvido. Sobre o design, não tive problemas em fazer o design do site, recorrendo a IA apenas a lógica. 
-A Logo GSGerenciamentos foi produzida no intuito de simular uma empresa, e fiz a edição de imagens para colocar no meu site, como as duas que estão nos botões de adicionar produto e excluir produto.  
-
+O Projeto também me ajudou bastante como programador, pois apesar de não ter usado um Framework na minha parte que é o React, trabalhei
+com conceitos frequentemente requisitados como HTML, CSS e JavaScript, pude aprender a utilizar e rodar um pouco do banco de dados MongoDB,
+trabalhar em grupo e conhecer melhor o uso do Git e GitHub, facilitando o desenvolvimento em conjunto, e trabalhar o pensamento não só
+técnico da programação, mas começar a pensar no sistema como um produto e o que seria interessante nesse aspecto. 
 
 ## Aqui está o sistema totalmente utilizável online:
 
@@ -60,21 +60,56 @@ A Logo GSGerenciamentos foi produzida no intuito de simular uma empresa, e fiz a
 
 ## Rode o projeto localmente:
 
+### Pré-requisitos:
+
+- Node.js instalado
+- Mongo.db instalado ( normal ou versão zip )
+
 ### Clone o repositório
-git clone https://github.com/DaviAntonioMendesGaiga/Gerenciamento-de-estoque.git
+git clone https://github.com/DaviAntonioMendesGaiga/BH-Alertas.git
 
-### Instale as dependências
-npm install
+### Instale as dependências do backend
 
-### Acesse a pasta do projeto
-cd gerenciamentodeestoque
+No terminal do seu editor de código digite:
 
-### Rode o projeto
-npm run dev
+1- cd projet-alertas/backend
+2- npm install
 
-# Projeto A3 em grupo 
-## Integrantes:
-- Asafe Orneles
-- Matheus Sequeira
-- Lucas Tavares
-- Davi
+### Crie o arquivo .env manualmente 
+
+Na pasta backend/, crie um arquivo chamado .env com o seguinte conteúdo:
+
+MONGO_URI=mongodb://localhost:27017/bh-alertas
+
+OBS: O arquivo .env não está no repositório por motivos de segurança, por isso é necessário criá-lo manualmente.
+
+### Rode o MongoDB no seu prompt de comando:
+
+No cmd, escreva:
+
+"Caminho_para_o_mongodb"\mongod.exe --dbpath "Caminho_para_sua_pasta_data"
+
+OBS: As expressões em aspas significam que esse caminho varia de dispositivo para dispositivo, pois depende de onde você irá instalar o MongoDB.
+Importante: Não fechar o CMD durante a execução do código, ele precisa ficar aberto pois representa o banco de dados online.
+
+### Rode o backend 
+
+No editor de código, na pasta backend, digite:
+
+node server.js
+
+OBS: Provavelmente aparecerá
+
+Servidor rodando na porta 5000  
+✅ Conectado ao MongoDB!
+
+Se isso aparecer, deu certo.
+
+### Acesse no navegador:
+
+Basta acessar esse link: http://localhost:5000/
+
+OBS: Caso dê erro, substituir o número da porta do localhost para a porta que o servidor está rodando no seu caso.
+
+
+
