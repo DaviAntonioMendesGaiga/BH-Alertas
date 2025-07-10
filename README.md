@@ -59,6 +59,11 @@ técnico da programação, mas começar a pensar no sistema como um produto e o 
 Frontend: [BH-Alertas](https://bh-alertas-oyvn.vercel.app/)
 Backend: [BH-Alertas Backend](https://bh-alertas-backend.onrender.com)
 
+## Observações sobre deploy e estabilidade:
+
+Por estar deployado online em serviços gratuitos, o backend pode apresentar lentidão ou timeout em algumas situações, 
+entretanto, mesmo com isso o frontend funciona normalmente na maior parte do tempo.
+
 ## Rode o projeto localmente:
 
 ### Pré-requisitos:
@@ -67,6 +72,7 @@ Backend: [BH-Alertas Backend](https://bh-alertas-backend.onrender.com)
 - Mongo.db instalado ( normal ou versão zip )
 
 ### Clone o repositório
+
 git clone https://github.com/DaviAntonioMendesGaiga/BH-Alertas.git
 
 ### Instale as dependências do backend
