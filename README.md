@@ -56,7 +56,8 @@ técnico da programação, mas começar a pensar no sistema como um produto e o 
 
 ## Aqui está o sistema totalmente utilizável online:
 
-[Gerenciamento de Estoque](https://gerenciamento-de-estoque-4b57.vercel.app/)
+Frontend: [BH-Alertas](https://bh-alertas-oyvn.vercel.app/)
+Backend: [BH-Alertas Backend](https://bh-alertas-backend.onrender.com)
 
 ## Rode o projeto localmente:
 
