@@ -64,6 +64,10 @@ Backend: [BH-Alertas Backend](https://bh-alertas-backend.onrender.com)
 Por estar deployado online em serviços gratuitos, o backend pode apresentar lentidão ou timeout em algumas situações, 
 entretanto, mesmo com isso o frontend funciona normalmente na maior parte do tempo.
 
+## Imagem de Demonstração :
+
+![image](https://github.com/user-attachments/assets/f09e66f1-1960-490f-a282-f6cfce1b56f7)
+
 ## Rode o projeto localmente:
 
 ### Pré-requisitos:
