@@ -62,7 +62,8 @@ Backend: [BH-Alertas Backend](https://bh-alertas-backend.onrender.com)
 ## Observações sobre deploy e estabilidade:
 
 Por estar deployado online em serviços gratuitos, o backend pode apresentar lentidão ou timeout em algumas situações, 
-entretanto, mesmo com isso o frontend funciona normalmente na maior parte do tempo.
+entretanto, mesmo com isso o frontend funciona normalmente na maior parte do tempo. Além disso, não consegui ter 
+acesso as funções de administrador, pois optamos por deixar o acesso com os responsáveis pelo backend.
 
 ## Imagens de Demonstração :
 
